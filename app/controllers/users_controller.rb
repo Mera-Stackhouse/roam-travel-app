@@ -5,6 +5,7 @@ class UsersController < ApplicationController
 	def index
 		@users = User.all
 	end
+
 	def show
 		@current_user = current_user
 		@user = User.find(params[:id])
@@ -50,6 +51,6 @@ class UsersController < ApplicationController
 	end
 
 	def user_params
-		params.require(:user).permit(:username, :password, :bio, :photo_url)
+		params.require(:user).permit(:username, :bio, :photo_url)
 	end
 end

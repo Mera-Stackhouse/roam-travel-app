@@ -5,4 +5,8 @@ class ProfileController < ApplicationController
 		@user_relationship = current_user.active_relationships.where(followed_id: @current_user.id).first
 	end
 
+	def edit
+
+	end
+
 end
