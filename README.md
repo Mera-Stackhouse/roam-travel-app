@@ -1,6 +1,9 @@
 
 # Welcome to Roam!
 Created by: Mera Stackhouse and Sofia Jonsson
+
+![Screenshot of Landing Page](lib/assets/landing_page_screenshot.png)
+
 ## What is Roam?
 Roam was created to be a travel focused social media site. Users can signup/login and browse posts. They are able to browse other users and follow and unfollow them. They will have a personalized feed, accessed through the navigation bar, based on who they follow and their posts.
 
